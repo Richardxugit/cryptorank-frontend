@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = { coinList: [] };
   }
   async componentDidMount() {
-    const url = 'http://localhost:8080/api/currency';
+    const url = 'http://coinrank-env.eba-u7vpw8bc.ap-southeast-2.elasticbeanstalk.com/api/currency';
     const result = await axios.get(url)
     const { data } = result
     this.setState({ coinList: data });
