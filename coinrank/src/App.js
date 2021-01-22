@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import axios from 'axios';
+import Coinlist from './components/CoinList';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,13 +12,12 @@ class App extends React.Component {
     const url = 'http://localhost:8080/api/currency';
     const result = await axios.get(url)
     const { data } = result
-    console.log(data)
-    this.setState({ coinList:data });
+    this.setState({ coinList: data });
   }
   render() {
     return (
       <div className="App">
-        app
+        <Coinlist coinlist={this.state.coinList}/>
       </div>
     );
   }
