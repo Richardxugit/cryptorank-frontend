@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import axios from 'axios';
 import Coinlist from './components/CoinList';
@@ -16,7 +15,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <Coinlist coinlist={this.state.coinList}/>
       </div>
     );
