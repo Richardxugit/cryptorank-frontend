@@ -8,11 +8,11 @@ class App extends React.Component {
     this.state = { coinList: [] };
   }
   async componentDidMount() {
-    const url = `localhost:8080/api/currency`;
+    const url = 'http://localhost:8080/api/currency';
     const result = await axios.get(url)
     const { data } = result
     console.log(data)
-    this.SetState({ data });
+    this.setState({ coinList:data });
   }
   render() {
     return (
