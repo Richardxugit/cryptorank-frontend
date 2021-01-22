@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cryptorank-frontend/static/css/main.d12b6766.chunk.css",
+    "main.js": "/cryptorank-frontend/static/js/main.781ed53b.chunk.js",
+    "main.js.map": "/cryptorank-frontend/static/js/main.781ed53b.chunk.js.map",
+    "runtime-main.js": "/cryptorank-frontend/static/js/runtime-main.9dcb37e9.js",
+    "runtime-main.js.map": "/cryptorank-frontend/static/js/runtime-main.9dcb37e9.js.map",
+    "static/js/2.35b21af4.chunk.js": "/cryptorank-frontend/static/js/2.35b21af4.chunk.js",
+    "static/js/2.35b21af4.chunk.js.map": "/cryptorank-frontend/static/js/2.35b21af4.chunk.js.map",
+    "index.html": "/cryptorank-frontend/index.html",
+    "static/css/main.d12b6766.chunk.css.map": "/cryptorank-frontend/static/css/main.d12b6766.chunk.css.map",
+    "static/js/2.35b21af4.chunk.js.LICENSE.txt": "/cryptorank-frontend/static/js/2.35b21af4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dcb37e9.js",
+    "static/js/2.35b21af4.chunk.js",
+    "static/css/main.d12b6766.chunk.css",
+    "static/js/main.781ed53b.chunk.js"
+  ]
+}
